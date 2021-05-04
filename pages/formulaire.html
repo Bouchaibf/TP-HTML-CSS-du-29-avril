@@ -1,0 +1,71 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="site pour TP du 29 avril ">
+    <meta author="Bouchaib" , content=" quatres pages HTML">
+    <meta name="keywords" , content="formulaire">
+    <link rel="stylesheet" href="../styles/style.css">
+    <script src="../scripts/script.js" async></script>
+    <title> Projet du 29 avril 2021 </title>
+</head>
+
+<body>
+    <header>
+        <h1> Bienvenue </h1>
+    </header>
+    <button onclick="bonjour()"> Cliquer ici </button>
+    <div class="conteneur">
+        <div>
+
+            <ul>
+                <li>
+                    <button onclick="window.location.href ='formulaire.html'" name="formulaire" id="formulaire">
+                        Formulaire </button>
+                <li>
+                <li>
+                    <button onclick="window.location.href ='images.html'" name="images" id="images"> images </button>
+                <li>
+                <li>
+                    <button onclick="window.location.href ='calculatrice.html'" name="calculatrice" id="calculatrice">
+                        calculatrice </button>
+                <li>
+                <li>
+                    <button onclick="window.location.href ='boutton.html'" name="boutton" id="utton"> boutton </button>
+                <li>
+            </ul>
+
+        </div>
+
+        <form onsubmit="inscription(this)">
+            <div class="conteneur champ">
+                <label for="nom"> Nom </label>
+                <input type="text" name="nom" id="nom">
+
+
+                <label for="prenom"> Prénom </label>
+                <input type="text" name="prenom" id="prenom">
+
+                <label for="age"> Age </label>
+                <input type="text" name="age" id="age">
+
+                <label for="sexe"> Sexe </label>
+                <input type="text" name="sexe" id="sexe">
+
+
+                <label for="vilee"> Ville </label>
+                <input type="text" name="ville" id="ville">
+
+                <button type="submit"> Valider </button>
+            </div>
+        </form>
+
+    </div>
+
+    <footer>
+        <p class=protection> Bouchaib &emsp13;
+            tous droits résérvé &copy;</p>
+    </footer>
+</body>
+
+</html>
